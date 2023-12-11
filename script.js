@@ -27,18 +27,17 @@ window.onscroll = () => {
             });
             
             sec.classList.add('show-animate');
-            
         }
 
         else{
-            sec.classList.remove('show-animate');
+            // sec.classList.remove('show-animate');
         }
     });
 
-    let header = document.querySelector("header");
-    header.classList.toggle('sticky', window.scrollY > 100);
+    // let header = document.querySelector("header");
+    // header.classList.toggle('sticky', window.scrollY > 100);
     
-    menuIcon.classList.remove('fa-xmark');
-    navbar.classList.remove('active');
+    // menuIcon.classList.remove('fa-xmark');
+    // navbar.classList.remove('active');
 
 };
